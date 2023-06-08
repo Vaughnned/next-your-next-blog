@@ -5,8 +5,6 @@ import Link from "next/link";
 export default function GetBlog() {
   const router = useRouter();
   const blogNumber = data[router.query.postId - 1];
-  console.log(blogNumber);
-  //   console.log(data[blogNumber]);
 
   return (
     <div>
